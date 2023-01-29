@@ -1,11 +1,5 @@
 # SportyShoes.com
 <img alt = "Home Screen" src = "https://github.com/abhishekraj909/SportyShoes/blob/main/Homepage.png">
-## Table of Contents
-
-- [General Info](#General-info)
-- [Problem Statement](#Description)
-- [Using the application](#Using-the-application)
-- [Technologies](#Technologies)
 
 ## General Info
 
@@ -14,59 +8,29 @@ This is a Full Stack Developer - Backened Project.
 # Description
 
 ### Project objective:
+Sporty Shoes is a company that manufactures and sells sports shoes. They have a walk-in store, and now, they wish to launch their e-commerce portal sportyshoes.com.
+You’re asked to develop a prototype of the application. It will be then presented to the relevant stakeholders for budget approval. Your manager has set up a meeting where you’re asked to do the following:
 
-The website needs to have the following features:
+* Presenting the specification document which has the product’s capabilities, appearance, and user interactions
+* Setting up Git and GitHub account to store and track your enhancements of the prototype 
+* Explaining the Java concepts used in the project 
+* Discussing the generic features of the product:
+* There will be an admin to manage the website. An administrator login will be required to access the admin page. 
 
-* A search form in the homepage to allow entry of travel details, like the date of travel, source, destination, and the number of persons.
-* Based on the travel details entered, it will show the available flights with their ticket prices.
-* Once a person selects a flight to book, they will be taken to a register page where they must fill in their personal details. In the next page, they are shown the flight details of the flight that they are booking, and the payment is done via a dummy payment gateway. On completion of the payment, they are shown a confirmation page with the details of the booking.   
+ 
  
-For the above features to work, there will be an admin backend with the following features:
+The admin should be able to change his password if he wants, he should be able to:
 
-* An admin login page where the admin can change the password after login, if he wishes
-* A master list of places for source and destination
-* A master list of airlines
-* A list of flights where each flight has a source, destination, airline, and ticket price
+* Manage the products in the store including categorizing them
+* Browse the list of users who have signed up and be able to search users
+* See purchase reports filtered by date and category
      
 The goal of the company is to deliver a high-end quality product as early as possible. 
 
-### The flow and features of the application:
+## Technologies Used
 
-* Plan more than two sprints to complete the application
-
-* Document the flow of the application and prepare a flow chart
-
-* List the core concepts and algorithms being used to complete this application
-
-* Implement the appropriate concepts such as exceptions, collections, and sorting techniques for source code optimization and increased performance
-
-
-You must use the following:
-
-* Eclipse/IntelliJ: An IDE to code for the application
-
-* Java: A programming language to develop the web pages, databases, and others
-
-* SQL: To create tables for admin, airlines, and other specifics
-
-* Maven: To create a web-enabled Maven project
-
-* Git: To connect and push files from the local system to GitHub
-
-* GitHub: To store the application code and track its versions
-
-* Scrum: An efficient agile framework to deliver the product incrementally
-
-* Search and Sort techniques: Data structures used for the project
-
-* Specification document: Any open-source document or Google Docs
-
-## Technologies
-
-Technologies used in project:
-
--java 8 \
--Eclipse \
--Tomcat v8.5 \
--MySql \
--Maven Web App and Hibernate Integration
+| Java 19 |
+| ------ |
+| Spring Boot |
+| Eclipse  |
+| MySql |
