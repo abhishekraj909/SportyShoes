@@ -63,9 +63,12 @@ src
 │   │                 
 │   └── resources
 │       └── application.properties
-└── test
-    ├── java
-    └── resources
+└── main
+    ├── webapp
+           └── WEB-INF
+                   └── View
+                   |     └── .jsp (All file)
+                   └── style.css
 
 
 
