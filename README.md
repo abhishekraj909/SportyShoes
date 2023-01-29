@@ -27,6 +27,48 @@ The admin should be able to change his password if he wants, he should be able t
      
 The goal of the company is to deliver a high-end quality product as early as possible. 
 
+## File Structure
+
+```
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── cisco
+│   │           └── sportyShoes
+│   │               |   └──SportyShoesApplication.java
+|   |               |
+│   │               ├── controller
+│   │               │   └── CommomController.java
+│   │               │  
+│   │               ├── dao
+│   │               │   ├── OrderDao.java
+│   │               │   └── ShoesDao.java
+|   |               |   └── UsersDao.java
+|   |               |
+│   │               ├── exception
+│   │               │   └── GlobalExceptionHandeler.java
+|   |               |
+│   │               ├── model
+│   │               │   ├── OrderedShoeModel.java
+│   │               │   └── ShoesDataModel.java
+|   |               |   └── UserInfoModel.java
+|   |               |
+│   │               ├── service
+│   │               │   ├── OrderService.java
+│   │               │   └── ShoesService.java
+|   |               |   └── UsersService.java
+|   |               
+│   │             
+│   │                 
+│   └── resources
+│       └── application.properties
+└── test
+    ├── java
+    └── resources
+
+
+
 ## Technologies Used
 
 | Java 19 |
